@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Travel Planner</h1>
+    <form id="tripForm">
+      <input type="text" id="destination" placeholder="Destination" required>
+      <input type="date" id="startDate" required>
+      <input type="date" id="endDate" required>
+      <textarea id="notes" placeholder="Notes (optional)"></textarea>
+      <button type="submit">Add Trip</button>
+    </form>
+
+    <h2>My Trips</h2>
+    <div id="tripList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
